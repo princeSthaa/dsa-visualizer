@@ -20,7 +20,7 @@ public class mainController {
     Map<String, List<AlgorithmDetails>> high;
     Map<String, Algorithm> objectList;
 
-        mainController() {
+    mainController() {
             high = Map.of(
                 "Sorting", List.of(
                         new AlgorithmDetails("BubbleSort","/algo/BubbleSort"),
