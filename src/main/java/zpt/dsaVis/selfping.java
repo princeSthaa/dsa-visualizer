@@ -11,6 +11,6 @@ public class selfping {
     @Scheduled(fixedRate = 50000)
     public void ping() {
         System.out.println("refreshed");
-        rstTmp.getForObject("https://portfolio-gfky.onrender.com/",String.class);
+        rstTmp.getForObject("https://dsa-visualizer-1-a398.onrender.com/",String.class);
     }
 }
