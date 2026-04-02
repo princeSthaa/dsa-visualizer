@@ -18,5 +18,4 @@ public class AlgoRestController {
         JsonNode root = mapper.readTree(new ClassPathResource("algorithmInfo.json").getInputStream());
         return root.has(projectKey) ? root.get(projectKey) : null;
     }
-
 }
