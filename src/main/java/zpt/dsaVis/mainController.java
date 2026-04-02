@@ -75,7 +75,7 @@ public class mainController {
     @GetMapping("/about")
     public String about(Model m) {
         m.addAttribute("aboutCss","/css/about.css");
-        return "about";
+        return "About";
     }
 
     @GetMapping("/algo/{projectKey}")
